@@ -16,7 +16,9 @@ html{
 img{
     width: 100%;
     border-radius: 50%;
-    left:10px;
+    left:1000px;
+    margin-top: 10px;
+    border: 2px solid #fff ;
 }
 body{
     font-family:Inter, sans-serif;
