@@ -6,29 +6,101 @@
         <link rel="stylesheet" href="test.css" >
         <title>My Resume</title>
         <link rel="icon" type="image/x-icon" href="/imagesfavi/cloud-service.png">
-
         <link rel="stylesheet" href="styles.css">
-
-       
     </head> 
 
     <body>
-        <div class ="container">
-            <div class ="profile">
-                <div class ="profile-container">
-                    <div class ="profile.profile.Img">
-                        <img src="./images/IMG_20220819_154345_740 ID VERSION.jpg"alt="IMG_20220819_154345_740 ID VERSION" style="width:128px;height:128px;">
-                    </div>
-                    <div>
-                        <h1 class="profile_name">
-                        MZAMO SAZISONKE MASHELE
-                        </h1>
-                        <P class="profile_title">THIS IS MY RESUME</P>
-                        <p class ="description">My character sterms from a various contribution of Just Cultural Practices that promoted self determination and goodwill, I incoporate that with my excellent work ethic that are mainly driven to produce fruitful results.</p>
-                    </div>
+        <style>
+
+            .a1{
+                width: 100%;
+                border-radius: 50%;
+                position: relative;
+                margin-top: 10px;
+                border: 2px solid #fff;
+            }
+            .a2{
+                position: relative;
+                left: 170px;
+                
+            }
+            .a{
+                background-color: rgb(59, 1, 59); 
+                position: sticky;
+                top: 10px;
+                font-family:Inter, sans-serif;
+                padding: 20px;
+                border-radius: 10px;
+                color: white;
+            }
+            .Navigation{
+                border-radius: 10px;
+                margin: 10px;
+                position: relative;
+                left: 100px;
+            }
+
+            body{
+                font-family:Inter, sans-serif;
+                background-color: #fcfbfb;
+                color:rgb(0, 0, 0);
+            }   
+            .b{
+                position: sticky;
+                top: 0;
+            }
+            .takeUp{
+
+                position: relative;
+                left: 500px;
+                top: -250px;
+            }
+            .b1{
+                margin: 5px;
+
+            }
+            .b2{
+                margin: 5px;
+                position: relative;
+                left: 120px;
+                top: -30px;
+            }
+
+            .bottom{
+                border-radius: 10px;
+            }
+
+            
+        </style>
+
+        <div class="a">
+                <div class ="a1">
+                    <img src="./images/IMG_20220819_154345_740 ID VERSION.jpg"alt="IMG_20220819_154345_740 ID VERSION" style="width:128px;height:128px;">
+                </div>
+                <div class="a2">
+                    <h1 class="profile_name">
+                    MZAMO SAZISONKE MASHELE
+                    </h1>
+                    <P class="profile_title">THIS IS MY RESUME</P>
+                    <p class ="description">My character sterms from a various contribution of Just Cultural Practices that promoted self determination and goodwill, I incoporate that with my excellent work ethic that are mainly driven to produce fruitful results.</p>
                 </div>
 
-            </div>
+                
+                    
+                    <div class="takeUp">
+                        <div class="b">
+                        
+                            <nav><button class="b1">Contact me</button></nav>
+                            <nav><button class="b2">About me</button></nav>
+        
+                        </div>
+    
+                    </div>
+                    
+        </div>
+
+        
+
         </div>
 
         <div class ="Navigation">
@@ -41,13 +113,7 @@
             <a href="#CONTACT">GO TO CONTACT</a>
         </div>
 
-        <div class ="container1">
-            <div class ="profile1">
-                <div class ="profile-container1">
-                    
-                    <article>
-                        <main>
-            
+        <div class ="c">
                             <section>
             
                                 <h4 id="EDUCATION">EDUCATION</h4>
@@ -56,8 +122,6 @@
                                 <P>Matric</P>
             
                             </section>
-            
-                        <Br>
             
                             <section>
             
@@ -69,8 +133,6 @@
             
                             </section>    
             
-                        <Br>
-            
                             <section>
             
                                 <h3 Id ="SKILLS">SKILLS</h3>
@@ -78,51 +140,41 @@
                                 <P>Manufacture Timbabe</P>
                                 <P>Code Using Java And Python</p>
             
-                            </section>    
-            
-                        <Br>
+                            </section>  
             
                             <div class="lastone">
+
                                 <h4 id="CONTACT">CONTACT</h4>
                                 <p>cell: 084 274 2696</p>
                                 <p>whatsApp: 064 179 0604</p>
 
-                                <h1>Contact Me</h1>
-
                                 <form action="https://formsubmit.co/sazimashele@gmail.com" method="POST">
                                     <input type="email" name="email" id="" placeholder="enter email here">
                                     <br>
-                                    <select name="subject" id="subject" required>
+                                    <select name="" id="subject" required>
                                         <option value="Interview Opportunity">Interview Opportunity</option>
                                         <option value="Recruiter">Recruiter</option>
                                         <option value="Website Feedback">Website Feedback</option>
                                     </select>
-
-                                    <textarea name="message" id="text" cols="30" row="10" placeholder="message here please"></textarea>
+                                
+                                    <div class="fixmessage">
+                                        <textarea name="message" id="text" cols="30" row="10" placeholder="message here please"></textarea>
+                                    </div>
+                                    
                                     
                                     <input class="submit" type="submit" value="send"> 
-
+                                
                                 </form>
+
+                                
+
                             </div>
-            
-                        <Br>
-                        
-                    </main>
-            
-                    </article>
 
-                </div>  
-
-            </div>
-            
-        </div>
-
-        <div class ="Bottom">
-            
-            <Br>
+                            
+        <div class ="bottom">
                 <a href = "http://www.linkedIn.com">LinkedIn</a>
-            <Br>
                 <a href="www.instagram.com">Instagram</a>
                 <img src ="images/Instagramlogo.jpg" alt="Instagram>
+        </div>
 
         </body>
